@@ -1,0 +1,67 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 80px;
+}
+
+header{
+  text-align: center;
+  font-size: 30px;
+}
+
+img{
+  width: 30%;
+  height: 30%;
+}
+
+.payoff{
+  color: lime;
+  display: block;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section > h3:before{
+  content: '\25A0';
+}
+
+section > p:before{
+  content: '\2192';
+}
+
+main > section{
+  color: white;
+}
+
+.orange-box{
+  width: 40%;
+  height: 25px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.green-box{
+  width: 75%;
+  height: 25px;
+  background-color: lime;
+  border-radius: 5px;
+}
+
+.red-box{
+  width: 15%;
+  height: 25px;
+  background-color: red;
+  border-radius: 5px;
+}
